@@ -1,3 +1,6 @@
+**/*.qws
+**/*.vwf
+**/*.txt
 **/*.bak
 **/db
 **/output_files
