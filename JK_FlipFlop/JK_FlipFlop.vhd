@@ -4,11 +4,11 @@ use ieee.std_logic_1164.all;
 entity JK_FlipFlop is
 	port(
 		ENABLE	: in std_logic;
-		J	: in std_logic;
-		K	: in std_logic;
-		CLK: in std_logic;
-		Q	: out std_logic;
-		NQ : out std_logic
+		J	    : in std_logic;
+		K	    : in std_logic;
+		CLK     : in std_logic;
+		Q	    : out std_logic;
+		NQ      : out std_logic
 		);
 end JK_FlipFlop;
 
@@ -30,5 +30,3 @@ begin
 	Q <= STATE;
 	NQ <= NOT(STATE);
 end Behaviour;
-		
-		
